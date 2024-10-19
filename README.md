@@ -1,4 +1,4 @@
-<b>Rwanda Carbon</b>
+<b>CO2 Emissions in Rwanda</b>
 
 <b>Introduction</b>
 

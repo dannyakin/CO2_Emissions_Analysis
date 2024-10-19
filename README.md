@@ -1,9 +1,16 @@
 <b>Rwanda Carbon Prediction Challenge</b>
 
-<b>Introduction</b>
+Dataset Description
+The objective of this challenge is to create machine learning models that use open-source emissions data (from Sentinel-5P satellite observations) to predict carbon emissions.
 
-Climate change is a global crisis, and accurate carbon emissions monitoring is essential for effective mitigation strategies. While many regions have sophisticated monitoring systems, Africa often lacks such infrastructure. This challenge aims to address this gap by performing deep data analysis developing machine learning models to predict carbon emissions using satellite data.
+Approximately 497 unique locations were selected from multiple areas in Rwanda, with a distribution around farm lands, cities and power plants. The data for this competition is split by time; the years 2019 - 2021 are included in the training data, and your task is to predict the CO2 emissions data for 2022 through November.
 
-<b>Objective</b>
+Seven main features were extracted weekly from Sentinel-5P from January 2019 to November 2022. Each feature (Sulphur Dioxide, Carbon Monoxide, etc) contain sub features such as column_number_density which is the vertical column density at ground level, calculated using the DOAS technique. You can read more about each feature in the below links, including how they are measured and variable definitions. You are given the values of these features in the test set and your goal to predict CO2 emissions using time information as well as these features.
 
-The goal of this challenge is to create a machine learning or deep learning model that can accurately predict carbon emissions in Africa based on open-source CO2 data from the Sentinel-5P satellite. These models will provide valuable insights for governments and researchers, enabling them to assess carbon emissions levels in areas where traditional monitoring is limited or unavailable.
+Sulphur Dioxide - COPERNICUS/S5P/NRTI/L3_SO2
+Carbon Monoxide - COPERNICUS/S5P/NRTI/L3_CO
+Nitrogen Dioxide - COPERNICUS/S5P/NRTI/L3_NO2
+Formaldehyde - COPERNICUS/S5P/NRTI/L3_HCHO
+UV Aerosol Index - COPERNICUS/S5P/NRTI/L3_AER_AI
+Ozone - COPERNICUS/S5P/NRTI/L3_O3
+Cloud - COPERNICUS/S5P/OFFL/L3_CLOUD

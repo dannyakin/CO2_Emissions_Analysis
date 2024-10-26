@@ -1,0 +1,2 @@
+The dataset is too large to be uploaded to github, it can be gotten from there
+https://www.kaggle.com/c/playground-series-s3e20/data?select=train.csv

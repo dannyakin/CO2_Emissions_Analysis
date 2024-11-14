@@ -11,4 +11,4 @@ The goal of this notebook is to clean and analyse the dataset to find deep and u
 
 The ability to accurately monitor carbon emissions is a critical step in the fight against climate change. Precise carbon readings allow researchers and governments to understand the sources and patterns of carbon mass output. While Europe and North America have extensive systems in place to monitor carbon emissions on the ground, there are few available in Africa.
 
-Submission to be made
+Submission to be made.
